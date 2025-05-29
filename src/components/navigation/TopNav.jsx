@@ -4,34 +4,34 @@ import { Link } from "react-router-dom";
 export function TopNav() {
   return (
     <nav className="bg-white shadow-lg hidden lg:block">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between h-16">
+      <div className="max-w-[95vw] mx-auto px-4">
+        <div className="flex justify-between top-nav-tv">
           <div className="flex space-x-8 items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold text-blue-600">AIFAC</span>
+              <span className="text-4xl font-bold text-blue-600">AIFAC</span>
             </Link>
             <div className="flex space-x-8">
               <Link
                 to="/stands"
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                className="nav-item-tv text-gray-600 hover:text-gray-900 rounded-md font-medium focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 Exhibition Stands
               </Link>
               <Link
                 to="/appointments"
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                className="nav-item-tv text-gray-600 hover:text-gray-900 rounded-md font-medium focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 Networking
               </Link>
               <Link
                 to="/payments"
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                className="nav-item-tv text-gray-600 hover:text-gray-900 rounded-md font-medium focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 Transactions
               </Link>
               <Link
                 to="/analytics"
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                className="nav-item-tv text-gray-600 hover:text-gray-900 rounded-md font-medium focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 Analytics
               </Link>
